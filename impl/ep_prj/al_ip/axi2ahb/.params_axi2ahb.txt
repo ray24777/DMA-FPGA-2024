@@ -1,0 +1,7 @@
+AL_US_AXI_ADDR_WIDTH : 32 : U : En :  :  : 
+AL_US_AXI_DATA_WIDTH : 32 : U : En : 32;;64 :  : 
+AL_US_AXI_ID_WIDTH : 4 : U : En :  : 1 : 16
+AL_SUPPORTS_NARROW_BURST : 0 : U : En :  :  : 
+AL_TIMEOUT_CYCLE : 0 : U : En : 0;;16;;32;;64;;128;;256 :  : 
+AL_DS_AHB_ADDR_WIDTH : 32 : G : En :  :  : 
+AL_DS_AHB_DATA_WIDTH : 32 : G : En :  :  : 

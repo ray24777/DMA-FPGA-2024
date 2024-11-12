@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FIFOConfig>
+    <DataPortOption>
+        <read_depth/>
+        <read_width/>
+        <write_depth>9</write_depth>
+        <write_width>16</write_width>
+    </DataPortOption>
+    <ECC>
+        <ecc_is_de_enable>false</ecc_is_de_enable>
+        <ecc_is_enable>false</ecc_is_enable>
+    </ECC>
+    <EndianOption>
+        <endian>Big</endian>
+    </EndianOption>
+    <FlagOption>
+        <aempty_flag>false</aempty_flag>
+        <afull_flag>false</afull_flag>
+        <reset_release>SYNC</reset_release>
+        <resetmode>ASYNC</resetmode>
+    </FlagOption>
+    <GeneralConfig>
+        <Device>PH1A90SBG484</Device>
+        <IP_ID>24</IP_ID>
+        <Type>PH1_LOGIC_FIFO</Type>
+        <Version>1.0</Version>
+        <create_VHDL>true</create_VHDL>
+        <inst>sfifo512x16</inst>
+    </GeneralConfig>
+    <InputOption>
+        <regmode_w>None</regmode_w>
+    </InputOption>
+    <OutputOption>
+        <regmode_r>None</regmode_r>
+    </OutputOption>
+    <PH_OutputOption>
+        <ph_regmode_r>NOREG</ph_regmode_r>
+    </PH_OutputOption>
+    <SyncClockOption>
+        <SSROVERCE>false</SSROVERCE>
+        <sync_clk>true</sync_clk>
+    </SyncClockOption>
+    <GeneratedFiles>
+        <SimVerilog Enable="false">sfifo512x16_sim.v</SimVerilog>
+        <VHDL Enable="false">sfifo512x16.vhd</VHDL>
+        <Verilog Enable="true">sfifo512x16.v</Verilog>
+    </GeneratedFiles>
+</FIFOConfig>

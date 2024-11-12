@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<BramConfig>
+    <GeneralConfig>
+        <Type>PH1_LOGIC_ERAM</Type>
+        <Device>PH1A100SFG676</Device>
+        <create_VHDL>false</create_VHDL>
+        <inst>ram512x32</inst>
+        <debug_enable>NO</debug_enable>
+        <pack_enable>NO</pack_enable>
+        <byte_write>none</byte_write>
+    </GeneralConfig>
+    <ImplementOption>
+        <imp_type>20K(FAST)</imp_type>
+    </ImplementOption>
+    <MemoryType>
+        <mem_type>PDPW</mem_type>
+    </MemoryType>
+    <PortAOption>
+        <mode_a>NORMAL</mode_a>
+        <depth_a>512</depth_a>
+        <width_a>32</width_a>
+        <register_a>None</register_a>
+        <enable_a>enable</enable_a>
+        <enable_wea>disable</enable_wea>
+    </PortAOption>
+    <PortBOption>
+        <mode_b>NORMAL</mode_b>
+        <depth_b>512</depth_b>
+        <width_b>32</width_b>
+        <register_b>None</register_b>
+        <enable_b>enable</enable_b>
+    </PortBOption>
+    <FillMemoryInitValues>
+        <fill_all>NONE</fill_all>
+    </FillMemoryInitValues>
+    <AL006>
+        <ECC>DISABLE</ECC>
+        <ECC_D>DISABLE</ECC_D>
+        <CLK_MODE>SYNC</CLK_MODE>
+        <SSROVERCE>DISABLE</SSROVERCE>
+        <A_OREGSET>SET</A_OREGSET>
+        <A_OSRMODE>ASYNC</A_OSRMODE>
+        <A_ASYNC>SYNC</A_ASYNC>
+        <B_OREGSET>SET</B_OREGSET>
+        <B_OSRMODE>ASYNC</B_OSRMODE>
+        <B_ASYNC>SYNC</B_ASYNC>
+    </AL006>
+    <GeneratedFiles>
+        <Verilog Enable="true">ram512x32.v</Verilog>
+    </GeneratedFiles>
+</BramConfig>

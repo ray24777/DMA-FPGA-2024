@@ -1,0 +1,1 @@
+cmd_/home/hge/work/sw_1ch/sgdma_drv/Module.symvers := sed 's/\.ko$$/\.o/' /home/hge/work/sw_1ch/sgdma_drv/modules.order | scripts/mod/modpost -m -a  -o /home/hge/work/sw_1ch/sgdma_drv/Module.symvers -e -i Module.symvers   -T -

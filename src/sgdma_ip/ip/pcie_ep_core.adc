@@ -1,0 +1,3 @@
+set_ipinst_assignment { u_pcie_ep_core_ph1_clock_ctrl/u_pcie_ep_core_ph1_core_pll/pll_inst} {location = x0y120z0}
+set_ipinst_assignment { u_pcie_ep_core_ph1_clock_ctrl/u_pcie_ep_core_ph1_pcie_sclk }   {location =x37y139z0}
+set_ipinst_assignment { u_pcie_ep_core_ph1_clock_ctrl/u_pcie_ep_core_ph1_core_pll/u_pll_fb_sclk }   {location =x37y139z3}

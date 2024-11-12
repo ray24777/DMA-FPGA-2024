@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic.com="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_axi2ahb</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>axi_ahblite_top_45df1ab5d994_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="AXI2AHB-Lite" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="AL_US_AXI_ADDR_WIDTH">32</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_US_AXI_DATA_WIDTH">32</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_US_AXI_ID_WIDTH">4</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_SUPPORTS_NARROW_BURST">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_TIMEOUT_CYCLE">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_DS_AHB_ADDR_WIDTH">32</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AL_DS_AHB_DATA_WIDTH">32</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>aclk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="aclk"/>
+                <ipxact:externalPortReference portRef="aclk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>aresetn</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="aresetn"/>
+                <ipxact:externalPortReference portRef="aresetn"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awid"/>
+                <ipxact:externalPortReference portRef="us_axi_awid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awlen</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awlen"/>
+                <ipxact:externalPortReference portRef="us_axi_awlen"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awsize</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awsize"/>
+                <ipxact:externalPortReference portRef="us_axi_awsize"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awburst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awburst"/>
+                <ipxact:externalPortReference portRef="us_axi_awburst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awcache</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awcache"/>
+                <ipxact:externalPortReference portRef="us_axi_awcache"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awaddr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awaddr"/>
+                <ipxact:externalPortReference portRef="us_axi_awaddr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awprot</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awprot"/>
+                <ipxact:externalPortReference portRef="us_axi_awprot"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awvalid"/>
+                <ipxact:externalPortReference portRef="us_axi_awvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awready"/>
+                <ipxact:externalPortReference portRef="us_axi_awready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_awlock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_awlock"/>
+                <ipxact:externalPortReference portRef="us_axi_awlock"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_wdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_wdata"/>
+                <ipxact:externalPortReference portRef="us_axi_wdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_wstrb</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_wstrb"/>
+                <ipxact:externalPortReference portRef="us_axi_wstrb"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_wlast</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_wlast"/>
+                <ipxact:externalPortReference portRef="us_axi_wlast"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_wvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_wvalid"/>
+                <ipxact:externalPortReference portRef="us_axi_wvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_wready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_wready"/>
+                <ipxact:externalPortReference portRef="us_axi_wready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_bid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_bid"/>
+                <ipxact:externalPortReference portRef="us_axi_bid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_bresp</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_bresp"/>
+                <ipxact:externalPortReference portRef="us_axi_bresp"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_bvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_bvalid"/>
+                <ipxact:externalPortReference portRef="us_axi_bvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_bready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_bready"/>
+                <ipxact:externalPortReference portRef="us_axi_bready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arid"/>
+                <ipxact:externalPortReference portRef="us_axi_arid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_araddr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_araddr"/>
+                <ipxact:externalPortReference portRef="us_axi_araddr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arprot</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arprot"/>
+                <ipxact:externalPortReference portRef="us_axi_arprot"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arcache</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arcache"/>
+                <ipxact:externalPortReference portRef="us_axi_arcache"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arvalid"/>
+                <ipxact:externalPortReference portRef="us_axi_arvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arlen</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arlen"/>
+                <ipxact:externalPortReference portRef="us_axi_arlen"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arsize</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arsize"/>
+                <ipxact:externalPortReference portRef="us_axi_arsize"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arburst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arburst"/>
+                <ipxact:externalPortReference portRef="us_axi_arburst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arlock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arlock"/>
+                <ipxact:externalPortReference portRef="us_axi_arlock"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_arready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_arready"/>
+                <ipxact:externalPortReference portRef="us_axi_arready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_rid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_rid"/>
+                <ipxact:externalPortReference portRef="us_axi_rid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_rdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_rdata"/>
+                <ipxact:externalPortReference portRef="us_axi_rdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_rresp</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_rresp"/>
+                <ipxact:externalPortReference portRef="us_axi_rresp"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_rvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_rvalid"/>
+                <ipxact:externalPortReference portRef="us_axi_rvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_rlast</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_rlast"/>
+                <ipxact:externalPortReference portRef="us_axi_rlast"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>us_axi_rready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="us_axi_rready"/>
+                <ipxact:externalPortReference portRef="us_axi_rready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_haddr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_haddr"/>
+                <ipxact:externalPortReference portRef="ds_ahb_haddr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hwrite</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hwrite"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hwrite"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hsize</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hsize"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hsize"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hburst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hburst"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hburst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hprot</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hprot"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hprot"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_htrans</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_htrans"/>
+                <ipxact:externalPortReference portRef="ds_ahb_htrans"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hmastlock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hmastlock"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hmastlock"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hwdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hwdata"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hwdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hready"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hrdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hrdata"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hrdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>ds_ahb_hresp</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_ahblite_top_45df1ab5d994_Inst" portRef="ds_ahb_hresp"/>
+                <ipxact:externalPortReference portRef="ds_ahb_hresp"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic.com:device>PH1A90SBG484</anlogic.com:device>
+        <anlogic.com:speed>-2</anlogic.com:speed>
+        <anlogic.com:displayname>AXI2AHB-Lite</anlogic.com:displayname>
+        <anlogic.com:ipGenVersion>1.0</anlogic.com:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

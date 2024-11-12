@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DRAMConfig>
+    <GeneralConfig>
+        <Type>PH1_LOGIC_DRAM</Type>
+        <Device>PH1A400SFG900</Device>
+        <create_VHDL>true</create_VHDL>
+        <inst>dram72x16</inst>
+    </GeneralConfig>
+    <WriteMemorySize>
+        <depth_a>16</depth_a>
+        <width_a>72</width_a>
+    </WriteMemorySize>
+    <ReadMemorySize>
+        <depth_b>16</depth_b>
+        <width_b>72</width_b>
+    </ReadMemorySize>
+    <ReadRegOption>
+        <ReadReg>disable</ReadReg>
+    </ReadRegOption>
+    <MemoryInitialization/>
+    <FillMemoryInitValues>
+        <fill_all>NONE</fill_all>
+    </FillMemoryInitValues>
+    <GeneratedFiles>
+        <Verilog Enable="true">dram72x16.v</Verilog>
+        <VHDL Enable="false">dram72x16.vhd</VHDL>
+    </GeneratedFiles>
+</DRAMConfig>

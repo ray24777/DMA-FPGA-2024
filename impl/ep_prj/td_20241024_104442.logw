@@ -1,0 +1,46 @@
+============================================================
+   Tang Dynasty, V6.0.122666
+   Copyright (c) 2012-2024 Anlogic Inc.
+   Executable = D:/Anlogic/TD_6.0.2_PHX_SP1_122.666/bin/td.exe
+   Built at =   09:21:25 Jun  5 2024
+   Run by =     admin
+   Run Date =   Thu Oct 24 10:44:42 2024
+
+   Run on =     GYT
+============================================================
+HDL-5007 WARNING: use of undefined macro 'DT_WD' in ../../src/sgdma_app/src/usr_c2h0r.v(52)
+HDL-5007 WARNING: use of undefined macro 'ODT_NUM' in ../../src/sgdma_app/src/usr_c2h0r.v(52)
+HDL-5007 WARNING: use of undefined macro 'DT_WD' in ../../src/sgdma_app/src/usr_h2c0w.v(38)
+HDL-5007 WARNING: use of undefined macro 'IDT_NUM' in ../../src/sgdma_app/src/usr_h2c0w.v(38)
+HDL-5007 WARNING: column 1216 exceeds maximum value 1023 in ../../src/clk/soft_mcu/eMCU_gate.v(15655)
+HDL-5007 WARNING: column 1082 exceeds maximum value 1023 in ../../src/clk/soft_mcu/eMCU_gate.v(27263)
+HDL-5007 WARNING: column 1082 exceeds maximum value 1023 in ../../src/clk/soft_mcu/eMCU_gate.v(27280)
+HDL-7007 CRITICAL-WARNING: overwrite current module 'AHB_DecMux8' in ../../src/clk/soft_mcu/soft_ps_wrapper.v(824)
+HDL-7007 CRITICAL-WARNING: previous definition of design element 'AHB_DecMux8' is here in ../../src/clk/soft_mcu/soft_ps_wrapper.v(653)
+HDL-7007 CRITICAL-WARNING: overwrite current module 'SyncStreamFIFO' in ../../src/clk/soft_mcu/soft_ps_wrapper.v(2617)
+HDL-7007 CRITICAL-WARNING: previous definition of design element 'SyncStreamFIFO' is here in ../../src/clk/soft_mcu/soft_ps_wrapper.v(2511)
+HDL-5007 WARNING: identifier 'DEVSEL_NUM' is used before its declaration in ../../src/clk/soft_mcu/soft_ps_wrapper.v(2943)
+HDL-5007 WARNING: parameter 'idle' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3885)
+HDL-5007 WARNING: parameter 'start_a' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3886)
+HDL-5007 WARNING: parameter 'start_b' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3887)
+HDL-5007 WARNING: parameter 'start_c' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3888)
+HDL-5007 WARNING: parameter 'start_d' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3889)
+HDL-5007 WARNING: parameter 'start_e' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3890)
+HDL-5007 WARNING: parameter 'stop_a' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3891)
+HDL-5007 WARNING: parameter 'stop_b' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3892)
+HDL-5007 WARNING: parameter 'stop_c' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3893)
+HDL-5007 WARNING: parameter 'stop_d' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3894)
+HDL-5007 WARNING: parameter 'rd_a' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3895)
+HDL-5007 WARNING: parameter 'rd_b' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3896)
+HDL-5007 WARNING: parameter 'rd_c' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3897)
+HDL-5007 WARNING: parameter 'rd_d' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3898)
+HDL-5007 WARNING: parameter 'wr_a' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3899)
+HDL-5007 WARNING: parameter 'wr_b' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3900)
+HDL-5007 WARNING: parameter 'wr_c' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3901)
+HDL-5007 WARNING: parameter 'wr_d' becomes localparam in 'i2c_master_bit_ctrl' with formal parameter declaration list in ../../src/clk/soft_mcu/soft_ps_wrapper.v(3902)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)

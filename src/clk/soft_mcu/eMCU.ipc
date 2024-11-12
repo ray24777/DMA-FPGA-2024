@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<RISC_V_32>
+    <GeneralConfig>
+        <Device>PH1A90SBG484</Device>
+        <Type>Lite/Medium RISC-V V1.0</Type>
+        <Version>1.0</Version>
+        <create_VHDL>false</create_VHDL>
+        <inst>eMCU</inst>
+    </GeneralConfig>
+    <UserConfig>
+        <CORE_TYPE>MEDIUM</CORE_TYPE>
+        <INT_CTRL_ADDR>1000</INT_CTRL_ADDR>
+        <INT_SRC_COUNT>6</INT_SRC_COUNT>
+        <TIMER_TYPE>SYSTICK</TIMER_TYPE>
+    </UserConfig>
+    <GeneratedFiles>
+        <GateVerilog Enable="true">eMCU_gate.v</GateVerilog>
+    </GeneratedFiles>
+</RISC_V_32>

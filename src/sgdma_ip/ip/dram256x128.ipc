@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DRAMConfig>
+    <FillMemoryInitValues>
+        <fill_all>NONE</fill_all>
+    </FillMemoryInitValues>
+    <GeneralConfig>
+        <Device>PH1A90SBG484</Device>
+        <IP_ID>32</IP_ID>
+        <Type>PH1_LOGIC_DRAM</Type>
+        <Version>1.0</Version>
+        <create_VHDL>true</create_VHDL>
+        <inst>dram256x128</inst>
+    </GeneralConfig>
+    <MemoryInitialization/>
+    <ReadMemorySize>
+        <depth_b>256</depth_b>
+        <width_b>128</width_b>
+    </ReadMemorySize>
+    <ReadRegOption>
+        <ReadReg>disable</ReadReg>
+    </ReadRegOption>
+    <WriteMemorySize>
+        <depth_a>256</depth_a>
+        <width_a>128</width_a>
+    </WriteMemorySize>
+    <GeneratedFiles>
+        <VHDL Enable="false">dram256x128.vhd</VHDL>
+        <Verilog Enable="true">dram256x128.v</Verilog>
+    </GeneratedFiles>
+</DRAMConfig>
